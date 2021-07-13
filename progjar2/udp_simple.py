@@ -1,7 +1,7 @@
 
 import socket
 
-TARGET_IP = "10.151.50.50"
+TARGET_IP = "192.168.122.205"
 TARGET_PORT = 5006
 
 nama='informatika'
