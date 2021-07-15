@@ -80,5 +80,5 @@ class ChatClient:
 if __name__=="__main__":
     ChatClient = ChatClient()
     while True:
-        cmdline = input("Command {}:" . format(cc.tokenid))
-        print(cc.proses(cmdline))
+        cmdline = input("Command {}:" . format(ChatClient.tokenid))
+        print(ChatClient.proses(cmdline))
