@@ -6,7 +6,7 @@ from glob import glob
 
 class FileInterface:
     def __init__(self):
-        os.chdir('files/')
+        os.chdir('/progjar/progjar4a')
 
     def list(self):
         try:
