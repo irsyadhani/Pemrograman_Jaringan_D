@@ -9,8 +9,8 @@ class Chat:
 	def __init__(self):
 		self.sessions={}
 		self.users = {}
-		self.users['messi']={ 'nama': 'Lionel Messi', 'negara': 'Argentina', 'password': 'surabaya', 'incoming' : {}, 'outgoing': {}}
-		self.users['henderson']={ 'nama': 'Jordan Henderson', 'negara': 'Inggris', 'password': 'surabaya', 'incoming': {}, 'outgoing': {}}
+		self.users['messi']={ 'nama': 'Lionel Messi', 'negara': 'Argentina', 'password': 'ronaldo', 'incoming' : {}, 'outgoing': {}}
+		self.users['irsyad']={ 'nama': 'Jordan Henderson', 'negara': 'Inggris', 'password': 'sidoarjo', 'incoming': {}, 'outgoing': {}}
 		self.users['lineker']={ 'nama': 'Gary Lineker', 'negara': 'Inggris', 'password': 'surabaya','incoming': {}, 'outgoing':{}}
 	def proses(self,data):
 		j=data.split(" ")
@@ -108,19 +108,3 @@ if __name__=="__main__":
 	print(j.get_inbox('messi'))
 	print("isi mailbox dari henderson")
 	print(j.get_inbox('henderson'))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
