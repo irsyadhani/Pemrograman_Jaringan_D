@@ -54,5 +54,5 @@ def kirim_gambar(IP_ADDRESS, PORT, filename):
         terkirim=terkirim+1
 
 if __name__=='__main__':
-    k = download_gambar('https://asset.kompas.com/crops/p4txjEosZq1J19zsXW8kYyTDQpE=/47x0:767x480/750x500/data/photo/2018/11/17/4058415081.jpg')
+    k = download_gambar('https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Ariana_Grande_Grammys_Red_Carpet_2020.png/220px-Ariana_Grande_Grammys_Red_Carpet_2020.png')
     print(k)
